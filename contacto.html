@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>LopDisegno</title>
+</head>
+
+<body>
+    <div class="grillaContainer">
+        <header class="header">
+            <nav class="menu">
+                <picture> <img src="./img/logo.JPG" alt="logo de LopDisegno"></picture>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./quiensoy.html">Sobre MI</a></li>
+                    <li><a href="productos.html">Prodcutos</a>
+                        <ol class="submenu">
+                            <li><a href="#">Renders</a></li>
+                            <li><a href="#">Planos Municipales</a></li>
+                            <li><a href="#">Othres Proyects</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="./galeria.html">Galeria</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <main>
+            <form action="#" method="get" class="form">
+                <div>
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" placeholder="Nombre completo" id="Nombre" name="Nombre">
+                    <label for="Apellido">Apellido</label>
+                    <input type="text" placeholder="Apellido" id="Apellido" name="Apellido">
+                    <label for="email">Mail</label>
+                    <input type="email" placeholder="ingrese una mail valido" name="email" id="email">
+                    <label for="password">Contraseña</label>
+                    <input type="password" placeholder="Ingrese su contraseña" id="password" name="password">
+                    <select name="pais" id="pais">
+                        <option value="seleccion">Seleccione su país</option>
+                        <option value="arg">ARG</option>
+                        <option value="br">BR</option>
+                        <option value="ch">CHI</option>
+                        <option value="mx">MX</option>
+                    </select>
+                    <div>¿Desea recibir informacion sobre LopDisegnio?
+                        <input type="checkbox" name="acepta" value="1">
+                    </div>
+                    <label>
+                        <span>Confirmar que es humano/a</span>
+                        <input type="checkbox">
+                    </label>
+                    <textarea name="comentario" id="" cols="30" rows="10"
+                        placeholder="Escriba aqui su comentario para ayudarme a mejorar Gracias :)"></textarea>
+                    <input type="submit" value="Enviar Formulario">
+                    <input type="submit" value="Reset Formulario">
+                </div>
+            </form>
+        </main>
+        
+        <footer class="footer">
+            <h3>Nuestras Redes</h3>
+            <div class="footerContenedor">
+                <li><a href="https://www.facebook.com/"><img src="./img/facebook.png"
+                            alt="boton para ir a facebook"></a>
+                </li>
+                <li><a href="https://twitter.com/"><img src="./img/twitter.jpg" alt="boton para ir a twitter"></a></li>
+                <li class="logo">
+                    <a href="index.html">
+                        <picture> <img src="./img/logo.JPG" alt="logo de LopDisegno"></picture>
+                    </a>
+                <li><a href="https://www.linkedin.com/"><img src="./img/linkedin.png"
+                            alt="boton para ir a linkedin"></a>
+                </li>
+                <li><a href="https://www.instagram.com/?hl=es-la"><img src="./img/instagram.png"
+                            alt="boton para ir a instagram"></a></li>
+            </div>
+        </footer>
+    </div>
+</body>
