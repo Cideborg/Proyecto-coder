@@ -231,6 +231,28 @@ button:hover {
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+    
+}
+
+.animate__animated.animate__fadeInDown {
+    --animate-duration: 5s;
+}
+
+
+.animate__animated .animate__fadeInLeftBig{
+    --animate-duration: 20s;
+    --animate-delay: 15s;
+}
+
+.animate__animated .animate__fadeInRightBig{
+    --animate-duration: 20s;
+    --animate-delay: 15s;
+}
+
+
+
+.animate__animated .animate__fadeInUp{
+    --animate-duration: 10s;
 }
 
 .info h1 {
