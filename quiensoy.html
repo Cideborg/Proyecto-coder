@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/77dd25a743.js" crossorigin="anonymous"></script>
     <title>LopDisegno</title>
 </head>
 
@@ -13,10 +15,16 @@
     <div class="grillaContainer">
         <header class="header">
             <nav class="menu">
-                <picture> <img src="./img/logo.JPG" alt="logo de LopDisegno"></picture>
-                <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./quiensoy.html">Sobre MI</a></li>
+                <div>
+                    <img src="./img/logo.JPG" alt="logo de LopDisegno">
+                </div>
+                <input type="checkbox" id="check">
+                <label for="check" class="bar-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="nav-menu">
+                    <li><a class="active" href="./index.html">Home</a></li>
+                    <li><a href="./quiensoy.html">SobreMI</a></li>
                     <li><a href="productos.html">Prodcutos</a>
                         <ol class="submenu">
                             <li><a href="#">Renders</a></li>
